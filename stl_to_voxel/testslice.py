@@ -1,5 +1,5 @@
-import slice
-import stl_reader
+from . import slice
+from . import stl_reader
 import unittest
 from matplotlib import pyplot
 import pylab

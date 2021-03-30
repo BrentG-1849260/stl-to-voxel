@@ -1,8 +1,8 @@
 import random
-import perimeter
+from . import perimeter
 import numpy as np
 import unittest
-import slice
+from . import slice
 from util import printBigArray
 
 

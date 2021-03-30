@@ -8,9 +8,9 @@ import zipfile
 from PIL import Image
 import numpy as np
 
-import slice
-import stl_reader
-import perimeter
+from . import slice
+from . import stl_reader
+from . import perimeter
 from util import arrayToWhiteGreyscalePixel, padVoxelArray
 
 
