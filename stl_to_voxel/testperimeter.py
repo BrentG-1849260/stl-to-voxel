@@ -3,7 +3,7 @@ from . import perimeter
 import numpy as np
 import unittest
 from . import slice
-from util import printBigArray
+from .util import printBigArray
 
 
 class PerimeterTest(unittest.TestCase):

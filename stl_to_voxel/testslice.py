@@ -6,7 +6,7 @@ import pylab
 from mpl_toolkits.mplot3d import Axes3D
 import random
 import numpy as np
-from util import printBigArray
+from .util import printBigArray
 
 
 class TestSlice(unittest.TestCase):

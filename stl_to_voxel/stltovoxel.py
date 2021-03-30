@@ -11,7 +11,7 @@ import numpy as np
 from . import slice
 from . import stl_reader
 from . import perimeter
-from util import arrayToWhiteGreyscalePixel, padVoxelArray
+from .util import arrayToWhiteGreyscalePixel, padVoxelArray
 
 
 def doExport(inputFilePath, outputFilePath, resolution):
